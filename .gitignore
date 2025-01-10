@@ -1,3 +1,5 @@
 ./dependencies/*
 ,env
 ./knit2pdf/__pycache__/*
+.vscode/*
+poetry.lock
