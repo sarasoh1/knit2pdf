@@ -3,7 +3,7 @@ name = "knit2pdf"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Sara Soh",email = "sara.soh@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9"
@@ -14,6 +14,8 @@ dependencies = [
     "onnxruntime (==1.15.1)",
     "whisperx (>=3.3.1,<4.0.0)",
     "youtube-dl (==2021.12.17)",
+    "wkhtmltopdf (>=0.2,<0.3)",
+    "pydantic (>=2.10.5,<3.0.0)",
 ]
 
 [tool.poetry.scripts]
@@ -23,6 +25,9 @@ knit2pdf = "knit2pdf.cli:cli"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
