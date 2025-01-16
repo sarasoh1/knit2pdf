@@ -1,9 +1,9 @@
 [project]
 name = "knit2pdf"
 version = "0.1.0"
-description = ""
+description = "Creates a knitting and/or crochet pattern from a youtube video"
 authors = [
-    {name = "Sara Soh",email = "sara.soh@gmail.com"}
+    {name = "Sara Soh",email = "sara.soh.ql@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9"
